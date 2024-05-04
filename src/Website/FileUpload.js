@@ -37,10 +37,10 @@ const FileUpload = () => {
           onSubmit={handleSubmit}
       >
           <Typography variant="h3" gutterBottom style={{ color: 'black' }}>
-              Submit Your Chat Logs
+            Join The Waitlist 📥
           </Typography>
           <p className='text-gray-500 mb-8 text-sm'> 
-            Provide a Google Drive / Dropbox / OneDrive / SharePoint / etc. link for us to look at -OR- upload your files. We will analyze your chat logs and send back a report in 24 hours.
+            Fill Out
           </p>
           <div className='flex mb-3 justify-between gap-3'>
               <TextField className="flex-grow" required id="firstName" name="firstName" label="First Name" variant="outlined"/>
@@ -53,22 +53,6 @@ const FileUpload = () => {
                   label="Email"
                   type="email"
                   variant="outlined"
-              />
-          </div>
-          <div className='flex mb-3 gap-3'>
-              <TextField
-                  className="flex-grow"
-                  id="company"
-                  name="company"
-                  label="Company"
-                  variant="outlined"
-              />
-              <TextField
-                  id="role"
-                  name="role"
-                  label="Role"
-                  variant="outlined"
-                  className='flex-grow text-field'
               />
           </div>
           <TextField
